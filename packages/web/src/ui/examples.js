@@ -3,6 +3,10 @@ const { putSourceInEditor } = require('./editor') // FIXME : eeek! dependency on
 const version = require('../../package.json').version
 
 const examples = [
+  { file:'juice/fortunate-cabin-v001.jscad', title: 'Fortunate Cabin', type: 'OpenJuice', new: true },
+  { file:'juice/mcgee-home-garden-v001.jscad', title: 'McGee Home Garden', type: 'OpenJuice', new: true },
+  //{ file:'juice/mcgee-home-garage-v001.jscad', title: 'McGee Home Garage', type: 'OpenJuice', new: true },
+
   { file: 'logo.jscad', title: 'OpenJSCAD.org Logo' },
   { file: 'logo.amf', title: 'OpenJSCAD.org Logo', type: 'AMF' },
 
