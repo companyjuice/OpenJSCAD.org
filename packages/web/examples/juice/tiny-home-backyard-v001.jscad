@@ -336,164 +336,6 @@ function get_backyard_posts(){
 		translate([142.5, 298, -12]).
 		setColor([0.2,0.2,0.0,0.5])
 	)
-	
-	// step 1
-  	// #10
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 48]}).
-		translate([72.5, 319.25, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #11
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 48]}).
-		translate([144.5, 319.25, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	
-	// step 2
-	// #12
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 42]}).
-		translate([120.5, 323, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #13
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 42]}).
-		translate([144.5, 323, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #14
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 42]}).
-		translate([120.5, 330.75, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #15
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 42]}).
-		translate([144.5, 330.75, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	
-	// step 3
-	// #16
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 36]}).
-		translate([120.5, 334.5, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #17
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 36]}).
-		translate([144.5, 334.5, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #18
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 36]}).
-		translate([120.5, 342.25, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #19
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 36]}).
-		translate([144.5, 342.25, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	
-	// step 4
-	// #20
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 30]}).
-		translate([120.5, 345.75, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #21
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 30]}).
-		translate([144.5, 345.75, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #22
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 30]}).
-		translate([120.5, 353.55, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	// #23
-  	backyard_posts.push(
-		cube({size: [3.5, 3.5, 30]}).
-		translate([144.5, 353.5, -12]).
-		setColor([0.9,0.6,0.0,0.8])
-	)
-	
-	// step 5
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 24]}).
-// 		translate([112.5, 436.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 24]}).
-// 		translate([144.5, 436.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 24]}).
-// 		translate([112.5, 444.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 24]}).
-// 		translate([144.5, 444.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-
-	// step 6
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 18]}).
-// 		translate([112.5, 448.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 18]}).
-// 		translate([144.5, 448.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 18]}).
-// 		translate([112.5, 456.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 18]}).
-// 		translate([144.5, 456.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-
-	// step 7
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 12]}).
-// 		translate([112.5, 460.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 12]}).
-// 		translate([144.5, 460.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 12]}).
-// 		translate([112.5, 468.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
-//   	backyard_posts.push(
-// 		cube({size: [3.5, 3.5, 12]}).
-// 		translate([144.5, 468.5, -12]).
-// 		setColor([0.9,0.6,0.0,0.8])
-// 	)
 	    
 	// backyard south side
 	// #4
@@ -575,6 +417,182 @@ function get_backyard_posts(){
 		cube({size: [7.5, 7.5, 12]}).
 		translate([142.5, 430.5, -12]).
 		setColor([0.2,0.2,0.0,0.5])
+	)
+	
+	// step 1
+  	// #10
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 48]}).
+		translate([72.5, 319.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #11
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 48]}).
+		translate([144.5, 319.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #12
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 48]}).
+		translate([115, 319.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	
+	// step 2
+	// #13
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 42]}).
+		translate([120.5, 323, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #14
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 42]}).
+		translate([144.5, 323, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #15
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 42]}).
+		translate([120.5, 330.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #16
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 42]}).
+		translate([144.5, 330.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	
+	// step 3
+	// #17
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 36]}).
+		translate([120.5, 334.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #18
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 36]}).
+		translate([144.5, 334.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #19
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 36]}).
+		translate([120.5, 342.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #20
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 36]}).
+		translate([144.5, 342.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	
+	// step 4
+	// #21
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 30]}).
+		translate([120.5, 345.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #22
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 30]}).
+		translate([144.5, 345.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #23
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 30]}).
+		translate([120.5, 353.55, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #24
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 30]}).
+		translate([144.5, 353.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	
+	// step 5
+	// #25
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 18]}).
+		translate([120.5, 438, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #26
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 18]}).
+		translate([144.5, 438, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #27
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 18]}).
+		translate([120.5, 446.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #28
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 18]}).
+		translate([144.5, 446.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	
+	// step 6
+	// #29
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 12]}).
+		translate([120.5, 450.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #30
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 12]}).
+		translate([144.5, 450.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #31
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 12]}).
+		translate([120.5, 458.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #32
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 12]}).
+		translate([144.5, 458.25, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	
+	// step 7
+	// #33
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 6]}).
+		translate([120.5, 461.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #34
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 6]}).
+		translate([144.5, 461.75, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #35
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 6]}).
+		translate([120.5, 469.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #36
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 6]}).
+		translate([144.5, 469.5, -12]).
+		setColor([0.9,0.6,0.0,0.8])
 	)
 	
     return backyard_posts
