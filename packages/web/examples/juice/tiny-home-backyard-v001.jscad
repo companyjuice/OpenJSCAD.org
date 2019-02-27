@@ -640,6 +640,7 @@ function get_backyard_deck(){
     var backyard_deck = []
 
 	// deck
+	// #1 - #4 "corner"
 	backyard_deck.push(
 		cube({size: [71, 5.5, 1.5]}).
 		translate([0, 300, 12]).
@@ -660,7 +661,7 @@ function get_backyard_deck(){
 		translate([0, 317.25, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
-	
+	// #5 - #8 "step 1"
 	backyard_deck.push(
 		cube({size: [75.5, 5.5, 1.5]}).
 		translate([72.5, 300, 36]).
@@ -681,6 +682,111 @@ function get_backyard_deck(){
 		translate([72.5, 317.25, 36]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
+	// #9 - #12
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 323, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 328.75, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 334.5, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 340.25, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	// #13 - #16
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 346, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 351.75, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 357.5, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 363.25, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	// #17 - #20
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 369, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 374.75, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 380.5, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 386.25, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	// #21 - #24
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 392, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 397.75, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 403.5, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	backyard_deck.push(
+		cube({size: [148, 5.5, 1.5]}).
+		translate([0, 409.25, 12]).
+		setColor([0.6,0.3,0.0,0.9])
+	)
+	// #25 - #28
+// 	backyard_deck.push(
+// 		cube({size: [148, 5.5, 1.5]}).
+// 		translate([0, 415, 12]).
+// 		setColor([0.6,0.3,0.0,0.9])
+// 	)
+// 	backyard_deck.push(
+// 		cube({size: [148, 5.5, 1.5]}).
+// 		translate([0, 420.75, 12]).
+// 		setColor([0.6,0.3,0.0,0.9])
+// 	)
+// 	backyard_deck.push(
+// 		cube({size: [148, 5.5, 1.5]}).
+// 		translate([0, 426.5, 12]).
+// 		setColor([0.6,0.3,0.0,0.9])
+// 	)
+// 	backyard_deck.push(
+// 		cube({size: [148, 3.5, 1.5]}).
+// 		translate([0, 432.25, 12]).
+// 		setColor([0.6,0.3,0.0,0.9])
+// 	)
 	
 	return backyard_deck
 }
