@@ -3,7 +3,7 @@
 // license: MIT
 // url: http://marty-mcgee.com/playground/openjuice/openjscad/
 //			#examples/juice/tiny-home-backyard-v001.jscad
-// revision: 0.1.7
+// revision: 0.2.0
 
 function main() {
     return  build_tinyhome().
@@ -435,30 +435,36 @@ function get_backyard_posts(){
 	// #12
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 48]}).
+		translate([115, 300, -12]).
+		setColor([0.9,0.6,0.0,0.8])
+	)
+	// #13
+  	backyard_posts.push(
+		cube({size: [3.5, 3.5, 48]}).
 		translate([115, 319.25, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
 	
 	// step 2
-	// #13
+	// #14
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 42]}).
 		translate([120.5, 323, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #14
+	// #15
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 42]}).
 		translate([144.5, 323, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #15
+	// #16
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 42]}).
 		translate([120.5, 330.75, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #16
+	// #17
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 42]}).
 		translate([144.5, 330.75, -12]).
@@ -466,25 +472,25 @@ function get_backyard_posts(){
 	)
 	
 	// step 3
-	// #17
+	// #18
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 36]}).
 		translate([120.5, 334.5, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #18
+	// #19
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 36]}).
 		translate([144.5, 334.5, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #19
+	// #20
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 36]}).
 		translate([120.5, 342.25, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #20
+	// #21
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 36]}).
 		translate([144.5, 342.25, -12]).
@@ -492,25 +498,25 @@ function get_backyard_posts(){
 	)
 	
 	// step 4
-	// #21
+	// #22
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 30]}).
 		translate([120.5, 346, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #22
+	// #23
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 30]}).
 		translate([144.5, 346, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #23
+	// #24
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 30]}).
 		translate([120.5, 353.75, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #24
+	// #25
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 30]}).
 		translate([144.5, 353.75, -12]).
@@ -518,25 +524,25 @@ function get_backyard_posts(){
 	)
 	
 	// step 5
-	// #25
+	// #26
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 18]}).
 		translate([120.5, 438, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #26
+	// #27
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 18]}).
 		translate([144.5, 438, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #27
+	// #28
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 18]}).
 		translate([120.5, 445.75, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #28
+	// #29
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 18]}).
 		translate([144.5, 445.75, -12]).
@@ -544,25 +550,25 @@ function get_backyard_posts(){
 	)
 	
 	// step 6
-	// #29
+	// #30
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 12]}).
 		translate([120.5, 449.5, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #30
+	// #31
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 12]}).
 		translate([144.5, 449.5, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #31
+	// #32
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 12]}).
 		translate([120.5, 457.25, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #32
+	// #33
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 12]}).
 		translate([144.5, 457.25, -12]).
@@ -570,25 +576,25 @@ function get_backyard_posts(){
 	)
 	
 	// step 7
-	// #33
+	// #34
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 6]}).
 		translate([120.5, 461, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #34
+	// #35
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 6]}).
 		translate([144.5, 461, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #35
+	// #36
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 6]}).
 		translate([120.5, 468.75, -12]).
 		setColor([0.9,0.6,0.0,0.8])
 	)
-	// #36
+	// #37
   	backyard_posts.push(
 		cube({size: [3.5, 3.5, 6]}).
 		translate([144.5, 468.75, -12]).
@@ -687,6 +693,56 @@ function get_backyard_beams(){
 		cube({size: [1.5, 136, 9.5]}).
 		translate([148, 300, 4]).
 		setColor([0.9,0.5,0.0,0.8])
+	)
+	
+	// "step 1"
+	// backyard joist
+	backyard_beams.push(
+		cube({size: [1.5, 16, 3.5]}).
+		translate([72.5, 303.5, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard joist
+	backyard_beams.push(
+		cube({size: [1.5, 20.5, 3.5]}).
+		translate([96.5, 301.5, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard joist
+	backyard_beams.push(
+		cube({size: [1.5, 16, 3.5]}).
+		translate([117, 303.5, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard joist
+	backyard_beams.push(
+		cube({size: [1.5, 16, 3.5]}).
+		translate([146.5, 303.5, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard ledger
+	backyard_beams.push(
+		cube({size: [39, 1.5, 3.5]}).
+		translate([76, 300, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard ledger
+	backyard_beams.push(
+		cube({size: [39, 1.5, 3.5]}).
+		translate([76, 321.25, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard ledger
+	backyard_beams.push(
+		cube({size: [26, 1.5, 3.5]}).
+		translate([118.5, 300, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
+	)
+	// backyard ledger
+	backyard_beams.push(
+		cube({size: [26, 1.5, 3.5]}).
+		translate([118.5, 321.25, 32.5]).
+		setColor([0.8,0.6,0.0,0.7])
 	)
 	
     return backyard_beams
@@ -829,6 +885,7 @@ function get_backyard_deck(){
 	
 	
 	
+	// #25 - #28
 	backyard_deck.push(
 		cube({size: [120.5, 5.5, 1.5]}).
 		translate([0, 346, 12]).
@@ -849,7 +906,7 @@ function get_backyard_deck(){
 		translate([0, 363.25, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
-	// #17 - #20
+	// #29 - #32
 	backyard_deck.push(
 		cube({size: [148, 5.5, 1.5]}).
 		translate([0, 369, 12]).
@@ -870,7 +927,7 @@ function get_backyard_deck(){
 		translate([0, 386.25, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
-	// #21 - #24
+	// #33 - #36
 	backyard_deck.push(
 		cube({size: [148, 5.5, 1.5]}).
 		translate([0, 392, 12]).
@@ -891,7 +948,7 @@ function get_backyard_deck(){
 		translate([0, 409.25, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
-	// #25 - #28
+	// #37 - #40
 // 	backyard_deck.push(
 // 		cube({size: [148, 5.5, 1.5]}).
 // 		translate([0, 415, 12]).
