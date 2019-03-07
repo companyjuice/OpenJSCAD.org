@@ -3,7 +3,7 @@
 // license: MIT
 // url: http://marty-mcgee.com/playground/openjuice/openjscad/
 //			#examples/juice/tiny-home-backyard-v001.jscad
-// revision: 0.2.7
+// revision: 0.2.8
 
 function main() {
     return  build_tinyhome().
@@ -53,7 +53,7 @@ function build_tinyhome() {
 			//tinyhome_door_A,
 			//tinyhome_door_B,
 			//tinyhome_door_hinges,
-			//tinyhome_backyard_hottub,
+			tinyhome_backyard_hottub,
 			tinyhome_backyard_deck,
 			tinyhome_backyard_beams,
 			tinyhome_backyard_posts
@@ -951,7 +951,7 @@ function get_backyard_hottub(){
 	// backyard_hottub (x)
 	backyard_hottub.push(
 		cube({size: [64.5, 83.5, 30]}).
-		translate([0, 323, 12]).
+		translate([0, 325, 12]).
 		setColor([0.6,0.8,0.9,1.0])
 	)
 	
