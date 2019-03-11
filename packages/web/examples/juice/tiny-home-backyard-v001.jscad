@@ -3,7 +3,7 @@
 // license: MIT
 // url: http://marty-mcgee.com/playground/openjuice/openjscad/
 //			#examples/juice/tiny-home-backyard-v001.jscad
-// revision: 0.2.9
+// revision: 0.3.0
 
 function main() {
     return  build_tinyhome().
@@ -885,12 +885,12 @@ function get_backyard_deck(){
 	
 	// #25 - #28
 	backyard_deck.push(
-		cube({size: [107, 5.5, 1.5]}).
+		cube({size: [74, 5.5, 1.5]}).
 		translate([0, 346, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [107, 5.5, 1.5]}).
+		cube({size: [74, 5.5, 1.5]}).
 		translate([0, 351.75, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
