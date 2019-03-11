@@ -3,7 +3,7 @@
 // license: MIT
 // url: http://marty-mcgee.com/playground/openjuice/openjscad/
 //			#examples/juice/tiny-home-backyard-v001.jscad
-// revision: 0.2.8
+// revision: 0.2.9
 
 function main() {
     return  build_tinyhome().
@@ -795,89 +795,89 @@ function get_backyard_deck(){
 	)
 	// #9 - #12
 	backyard_deck.push(
-		cube({size: [73.5, 5.5, 1.5]}).
+		cube({size: [74, 5.5, 1.5]}).
 		translate([0, 323, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [73.5, 5.5, 1.5]}).
+		cube({size: [74, 5.5, 1.5]}).
 		translate([0, 328.75, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [73.5, 5.5, 1.5]}).
+		cube({size: [74, 5.5, 1.5]}).
 		translate([0, 334.5, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [73.5, 5.5, 1.5]}).
+		cube({size: [74, 5.5, 1.5]}).
 		translate([0, 340.25, 12]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	// #13 - #14 "step 2"
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 323, 30]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 323, 30]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 328.75, 30]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 328.75, 30]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	// #15 - #16 "step 3"
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 334.5, 24]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 334.5, 24]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 340.25, 24]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 340.25, 24]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	// #17 - #18 "step 4"
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 346, 18]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 346, 18]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 351.75, 18]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 351.75, 18]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	// #19 - #20 "step 5"
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 410, 6]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 410, 6]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 415.75, 6]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 415.75, 6]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	// #21 - #22 "step 6"
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 421.5, 0]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 421.5, 0]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 427.25, 0]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 427.25, 0]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	// #23 - #24 "step 7"
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 433, -6]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 433, -6]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	backyard_deck.push(
-		cube({size: [28, 5.5, 1.5]}).
-		translate([73.5, 438.75, -6]).
+		cube({size: [33, 5.5, 1.5]}).
+		translate([74, 438.75, -6]).
 		setColor([0.6,0.3,0.0,0.9])
 	)
 	
@@ -950,7 +950,7 @@ function get_backyard_hottub(){
 	
 	// backyard_hottub (x)
 	backyard_hottub.push(
-		cube({size: [64.5, 83.5, 30]}).
+		cube({size: [64.5, 83.5, 29.5]}).
 		translate([0, 325, 12]).
 		setColor([0.6,0.8,0.9,1.0])
 	)
