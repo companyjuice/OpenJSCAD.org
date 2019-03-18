@@ -1,9 +1,8 @@
 // title: Tiny Home Backyard v001
 // author: Marty McGee
 // license: MIT
-// url: http://marty-mcgee.com/playground/openjuice/openjscad/
-//			#examples/juice/tiny-home-backyard-v001.jscad
-// revision: 0.4.0
+// url: http://mojostud.io/#examples/juice/tiny-home-backyard-v001.jscad
+// revision: 0.4.1
 
 function main() {
     return  build_tinyhome().
