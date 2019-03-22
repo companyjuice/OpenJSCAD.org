@@ -252,12 +252,12 @@ function get_door_A(){
 	// door (x)
 	door.push(
 		cube({size: [3.5, 3.5, 72]}).
-		translate([12, 0, 8]).
+		translate([12, 0, 32]).
 		setColor([1.0,0.5,0.0,0.8])
 	)
 	door.push(
 		cube({size: [3.5, 3.5, 72]}).
-		translate([48, 0, 8]).
+		translate([48, 0, 32]).
 		setColor([1.0,0.5,0.0,0.8])
 	)
 	
@@ -270,23 +270,23 @@ function get_door_B(){
 	// door (x)
 	door.push(
 		cube({size: [1.5, 3.5, 30]}).
-		translate([102, 290, 42]).
+		translate([48, 290, 62]).
 		setColor([1.0,0.5,0.0,0.8])
 	)
 	door.push(
 		cube({size: [1.5, 3.5, 30]}).
-		translate([138, 290, 42]).
+		translate([93, 290, 62]).
 		setColor([1.0,0.5,0.0,0.8])
 	)
 	// door (y)
 	door.push(
-		cube({size: [36, 3.5, 1.5]}).
-		translate([102, 290, 42]).
+		cube({size: [45, 3.5, 1.5]}).
+		translate([48, 290, 62]).
 		setColor([1.0,0.5,0.0,0.8])
 	)
 	door.push(
-		cube({size: [37.5, 3.5, 1.5]}).
-		translate([102, 290, 72]).
+		cube({size: [46.5, 3.5, 1.5]}).
+		translate([48, 290, 92]).
 		setColor([1.0,0.5,0.0,0.8])
 	)
 	
